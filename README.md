@@ -34,5 +34,4 @@ The project includes:
 - Outlier detection using Tukey's 1.5 × IQR method
 
 ## Final Homework Report
-
-[View / Download Module 1 Report](./Module%201%20Report.pdf)
+[View / Download Module 1 Report](./Module1%20Report.pdf)
