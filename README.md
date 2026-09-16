@@ -48,7 +48,20 @@ Follow these steps to run the notebook on your own machine.
 5. **Select the correct kernel in VS Code**
    Open `notebooks/01_eda_and_data_dictionary.ipynb`, then click the kernel picker in the top-right corner of the notebook and select the Python interpreter from the `venv` you just created and activated (e.g. `venv (Python 3.x)`).
 
-6. **Run the notebook**
+6. **Download the raw dataset.**
+
+```cmd
+python data\download_data.py
+```
+
+Expected output:
+
+```text
+data/raw_business_data.csv
+678,013 rows x 12 columns
+```
+
+7. **Run the notebook**
    Use **Run All** to execute the full notebook from top to bottom.
 
 > **Troubleshooting:** If you see `ModuleNotFoundError` for a package like `matplotlib` or `seaborn`, it almost always means the notebook kernel is not pointed at the `venv` from step 2-4. Re-check step 5, then restart the kernel and re-run.
